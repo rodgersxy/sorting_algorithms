@@ -9,6 +9,7 @@
 void swap_values(int **array, size_t idx1, size_t idx2)
 {
 	int temp;
+
 	temp = (*array)[idx1];
 	(*array)[idx1] = (*array)[idx2];
 	(*array)[idx2] = temp;
